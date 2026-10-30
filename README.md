@@ -68,13 +68,14 @@ ready; removed template samples are not personal content.
 The public footer banner is intentionally omitted from the default layout.
 Upstream theme attribution and the MIT license remain in this repository.
 
-## Research refresh review preview
+## Review deployments
 
-The `users/jue/research-homepage-preview` branch is for review only. It is not
-merged into `master`. Manually run the existing Pages workflow on this branch:
+The approved research refresh is published on `master`. There is no active
+temporary preview. For future changes, use a separate review branch and manually
+run the existing Pages workflow on that branch (replace `your-review-branch`):
 
 ```sh
-gh workflow run jekyll.yml --ref users/jue/research-homepage-preview
+gh workflow run jekyll.yml --ref your-review-branch
 ```
 
 On a non-default branch, the workflow builds the unchanged `master` homepage
@@ -84,7 +85,7 @@ The preview uses `_config.preview.yml`, including a preview base URL and
 Both builds use the same Gemfile and dependency lockfile.
 The GitHub Pages environment must allow this exact review branch to deploy.
 A subsequent normal `master` deployment removes the temporary preview.
-Do not merge the review branch or replace the main homepage until approved.
+Only merge a review branch or replace the main homepage after approval.
 
 For a local preview using the same base path:
 
