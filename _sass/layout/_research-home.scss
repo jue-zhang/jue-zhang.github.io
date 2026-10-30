@@ -6,8 +6,25 @@
     text-underline-offset: 0.15em;
   }
 
-  .author__avatar img {
-    height: auto;
+  .author__avatar {
+    margin: 0;
+    width: 110px;
+
+    @include breakpoint($large) {
+      width: auto;
+    }
+
+    img {
+      height: auto;
+    }
+  }
+
+  .author__avatar-caption {
+    max-width: 175px;
+    margin-top: 0.4rem;
+    font-size: 0.65rem;
+    font-style: italic;
+    line-height: 1.5;
   }
 
   .profile-links-toggle {
@@ -81,15 +98,6 @@
     font-size: 0.9em;
   }
 
-  .publication-entry__summary {
-    margin-block: 0.35rem 0;
-    font-size: 0.9em;
-  }
-
-  .publication-list--highlights {
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--global-dark-border-color);
-  }
 }
 
 html[data-theme="dark"] .research-home {

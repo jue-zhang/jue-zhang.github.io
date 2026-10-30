@@ -76,5 +76,3 @@ an estimated 10 million users during its pandemic-era surge.
 Before transitioning to AI/ML, I was a physicist with a Ph.D. in High Energy Physics
 from the University of Florida and a B.S. in Theoretical Physics from the
 University of Science and Technology of China.
-
-*The photo on this page was taken by my daughter when she was three years old. I'm wearing her hat, too! :)*

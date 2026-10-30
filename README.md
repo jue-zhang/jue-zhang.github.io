@@ -27,16 +27,16 @@ The upstream theme's MIT license and attribution are preserved.
   by its project page, rather than the NeurIPS poster's shorter author metadata.
   Do not invent an arXiv link for a paper available only from its publisher.
   Add verified media coverage beside a paper with `media_url` and `media_label`.
-- Edit `_data/research.yml` for featured themes and the six highlighted paper
-  IDs. These reference the existing publication records by arXiv ID; titles,
-  authors, venues, resources, and highlight summaries stay in
-  `_data/publications.yml`. Highlighted entries appear once, above the remaining
-  papers grouped by research area.
+- Edit `_data/research.yml` for featured themes. These reference the existing
+  publication records by arXiv ID; titles, authors, venues, and resources stay
+  in `_data/publications.yml`. All selected publications appear once, grouped
+  by research area and sorted newest first, without a separate highlights list.
 - Set `internships_open: false` in `_config.yml` to hide the internship callout.
 - Edit `_config.yml` for sidebar details and profile links.
 - Edit `_data/navigation.yml` for the navigation.
-- The approved portrait is `images/profile.jpg`; the homepage includes its
-  personal anecdote. Remove location metadata before replacing the photo.
+- The approved portrait is `images/profile.jpg`; `author.avatar_caption` in
+  `_config.yml` supplies the short note directly beneath it. Remove location
+  metadata before replacing the photo.
 
 Push changes to `master`. The **Deploy personal website to Pages** workflow
 builds the site and publishes it through GitHub Pages. Deployment status is

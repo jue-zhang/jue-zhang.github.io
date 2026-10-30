@@ -1,20 +1,9 @@
-{% assign all_papers = "" | split: "," %}
-{% for area in site.data.publications %}{% assign all_papers = all_papers | concat: area.papers %}{% endfor %}
-<h3>Highlights</h3>
-<ol class="publication-list publication-list--highlights">
-  {% for arxiv in site.data.research.highlights %}
-    {% assign paper = all_papers | where_exp: "entry", "entry.arxiv == arxiv" | first %}
-    {% if paper %}{% include publication-entry.html paper=paper highlight=true %}{% endif %}
-  {% endfor %}
-</ol>
 {% for area in site.data.publications %}
 <h3>{{ area.title | escape }}</h3>
 <ol class="publication-list">
   {% assign papers = area.papers | sort: "sort_key" | reverse %}
   {% for paper in papers %}
-    {% unless site.data.research.highlights contains paper.arxiv %}
-      {% include publication-entry.html paper=paper %}
-    {% endunless %}
+    {% include publication-entry.html paper=paper %}
   {% endfor %}
 </ol>
 {% endfor %}

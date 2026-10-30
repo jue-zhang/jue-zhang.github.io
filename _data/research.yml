@@ -15,8 +15,8 @@ themes:
         label: "LLMLingua-2"
       - arxiv: "2409.13035"
         label: "TACO-RL"
-      - arxiv: "2409.17140"
-        label: "AXIS"
+      - arxiv: "2406.19251"
+        label: "AutoRAG-HP"
   - title: "Privacy-Preserving AI"
     description: "Understanding, evaluating, and mitigating privacy risks in AI-powered systems, particularly enterprise agents handling sensitive information."
     papers:
@@ -33,11 +33,3 @@ themes:
         label: "Contrastive Attribution in the Wild"
       - arxiv: "2509.23676"
         label: "From Reasoning to Answer"
-
-highlights:
-  - "2608.23041"
-  - "2512.06749"
-  - "2610.00906"
-  - "2403.12968"
-  - "2604.21308"
-  - "2602.13830"

@@ -25,6 +25,7 @@ internships_open         : true
 author:
   # Biographic information
   avatar           : "profile.jpg"
+  avatar_caption   : "Photo by my daughter, then 3. Her hat, too! :)"
   name             : "Jue Zhang (张珏)"
   pronouns         : # example: "she/her"  
   bio              : "Principal Researcher at Microsoft"

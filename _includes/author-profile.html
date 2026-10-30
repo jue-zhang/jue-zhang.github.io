@@ -6,13 +6,16 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
+  <figure class="author__avatar">
     {% if author.avatar contains "://" %}
       <img src="{{ author.avatar }}" alt="Portrait of {{ author.name | escape }}" width="263" height="395" fetchpriority="high" />
     {% else %}
       <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="Portrait of {{ author.name | escape }}" width="263" height="395" fetchpriority="high" />
     {% endif %}
-  </div>
+    {% if author.avatar_caption %}
+      <figcaption class="author__avatar-caption">{{ author.avatar_caption | escape }}</figcaption>
+    {% endif %}
+  </figure>
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>

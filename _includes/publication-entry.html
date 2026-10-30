@@ -10,5 +10,4 @@
     {% if paper.publisher_url %} &middot; <a href="{{ paper.publisher_url | escape }}">Publisher</a>{% endif %}
     {% if paper.media_url %} &middot; <a href="{{ paper.media_url | escape }}">{{ paper.media_label | default: "Media coverage" | escape }}</a>{% endif %}
   </span>
-  {% if include.highlight %}<p class="publication-entry__summary">{{ paper.highlight_summary | escape }}</p>{% endif %}
 </li>
