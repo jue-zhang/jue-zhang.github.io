@@ -10,7 +10,11 @@ The upstream theme's MIT license and attribution are preserved.
 - Edit `_pages/about.md` for the homepage and biography.
 - Edit `_data/publications.yml` for selected publications grouped by research area.
   They appear on the About page through `_includes/selected-publications.html`.
-  Preserve the requested order within each area. Each entry records its full
+  Entries render newest first within each area using `sort_key`: publication
+  year (preprint year for unpublished work), followed by the arXiv identifier
+  to break ties within a year. For papers without an arXiv ID, use `0000.00000`
+  as the tie-breaker; no within-year publication date is claimed.
+  Each entry records its full
   title, confirmed venue and year (or arXiv identifier for preprints), arXiv
   identifier when available, and official GitHub repository when verified.
   Keep evidence links in the `sources` field; those are not rendered on the page.
@@ -46,3 +50,6 @@ JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter
 The About page includes selected publications. The old `/publications/` address
 redirects to that section. Add talks, blog posts, or a public CV when content is
 ready; removed template samples are not personal content.
+
+The public footer banner is intentionally omitted from the default layout.
+Upstream theme attribution and the MIT license remain in this repository.

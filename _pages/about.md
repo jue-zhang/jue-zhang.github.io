@@ -19,7 +19,7 @@ I serve as an area chair for ACL Rolling Review and a reviewer for leading AI/ML
 conferences, including NeurIPS, ICML, ICLR, and AAAI. Before transitioning to AI/ML,
 I was a physicist with a Ph.D. in High Energy Physics from the University of Florida.
 
-*The photo on this page was taken by my daughter when she was three years old.*
+*The photo on this page was taken by my daughter when she was three years old. I'm wearing her hat, too! :)*
 
 ## Research interests
 

@@ -1,7 +1,8 @@
 {% for area in site.data.publications %}
 <h3>{{ area.title | escape }}</h3>
 <ol>
-  {% for paper in area.papers %}
+  {% assign papers = area.papers | sort: "sort_key" | reverse %}
+  {% for paper in papers %}
   <li>
     <strong>{{ paper.title | escape }}</strong><br>
     {% if paper.venue %}{{ paper.venue | escape }}{% elsif paper.arxiv %}arXiv:{{ paper.arxiv | escape }}{% endif %}
