@@ -15,9 +15,11 @@ My research has contributed to Microsoft products including Microsoft 365, Bing,
 and Azure. I have authored nearly 50 peer-reviewed publications across leading
 AI/ML conferences and physics journals.
 
-I serve as an area chair for ACL Rolling Review and a reviewer for leading AI/ML
-conferences, including NeurIPS, ICML, ICLR, and AAAI. Before transitioning to AI/ML,
-I was a physicist with a Ph.D. in High Energy Physics from the University of
+Before joining Microsoft, I worked at JD.com, where I contributed to **ABC Health**,
+a WeChat mini program that helped people monitor their health during the
+COVID-19 pandemic ([36Kr coverage, in Chinese](https://www.36kr.com/p/2086021615436163)).
+
+Before transitioning to AI/ML, I was a physicist with a Ph.D. in High Energy Physics from the University of
 Florida and a B.S. in Theoretical Physics from the University of Science and
 Technology of China.
 
@@ -31,6 +33,23 @@ Technology of China.
 - **AI efficiency:** making AI systems more efficient in inference and deployment.
 - **Privacy-preserving AI:** understanding and addressing privacy challenges in
   AI systems.
+
+## Honors and awards
+
+- **Silver Reviewer Award**, ICML (2026).
+- **MLADS Distinguished Contribution Award**, Microsoft (2023, 2024, 2026).
+- **Best Poster Award**, 28th International Symposium on Lepton Photon
+  Interactions at High Energies (2017).
+- **China Postdoctoral Fellowship (First Grade)**, Peking University (2017).
+- **CLAS Dissertation Fellowship**, University of Florida (2014).
+
+## Professional service
+
+- **Review Process Co-Chair**, ICSE 2027; member of the Program and Organizing
+  Committees, with a focus on review quality and integrity.
+- **Area Chair**, ACL Rolling Review.
+- **Reviewer**, NeurIPS, ICML, ICLR, AAAI, and ACL Rolling Review.
+- **Journal Reviewer**, Physical Review D and Journal of High Energy Physics.
 
 ## Selected Publications
 

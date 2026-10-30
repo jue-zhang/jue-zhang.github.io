@@ -283,8 +283,20 @@
       venue: "Nature Communications, 2018"
       arxiv: "1712.01153"
       publisher_url: "https://doi.org/10.1038/s41467-018-04264-y"
+      media_url: "https://news.gmw.cn/2018-05/15/content_28792107.htm"
+      media_label: "Media: Guangming Daily (Chinese)"
       sources:
         - "https://inspirehep.net/literature/1640603"
+    - title: "Viability of exact tri-bimaximal, golden-ratio and bimaximal mixing patterns and renormalization-group running effects"
+      authors: ["Jue Zhang", "Shun Zhou"]
+      author_source: "https://inspirehep.net/literature/1473081"
+      sort_key: "2016-1606.09591"
+      venue: "Journal of High Energy Physics, 2016"
+      arxiv: "1606.09591"
+      publisher_url: "https://doi.org/10.1007/JHEP09(2016)167"
+      sources:
+        - "https://arxiv.org/abs/1606.09591"
+        - "https://inspirehep.net/literature/1473081"
     - title: "Distinguishing Dirac/Majorana Sterile Neutrinos at the LHC"
       authors: ["Claudio O. Dib", "Choong Sun Kim", "Kechen Wang", "Jue Zhang"]
       author_source: "https://doi.org/10.1103/PhysRevD.94.013005"

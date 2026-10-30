@@ -10,6 +10,7 @@
     {% if paper.arxiv %} &middot; <a href="https://arxiv.org/abs/{{ paper.arxiv | escape }}">arXiv</a>{% endif %}
     {% if paper.github %} &middot; <a href="{{ paper.github | escape }}">{{ paper.github_label | default: "GitHub" | escape }}</a>{% endif %}
     {% if paper.publisher_url %} &middot; <a href="{{ paper.publisher_url | escape }}">Publisher</a>{% endif %}
+    {% if paper.media_url %} &middot; <a href="{{ paper.media_url | escape }}">{{ paper.media_label | default: "Media coverage" | escape }}</a>{% endif %}
   </li>
   {% endfor %}
 </ol>

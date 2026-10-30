@@ -7,7 +7,9 @@ The upstream theme's MIT license and attribution are preserved.
 
 ## Updating the site
 
-- Edit `_pages/about.md` for the homepage and biography.
+- Edit `_pages/about.md` for the homepage, biography, honors, and professional
+  service. Keep experience and award claims grounded in the approved CV;
+  link public coverage where relevant and label non-English articles.
 - Edit `_data/publications.yml` for selected publications grouped by research area.
   They appear on the About page through `_includes/selected-publications.html`.
   Entries render newest first within each area using `sort_key`: publication
@@ -24,6 +26,7 @@ The upstream theme's MIT license and attribution are preserved.
   AutoSaddler uses the complete 13-author arXiv manuscript list, corroborated
   by its project page, rather than the NeurIPS poster's shorter author metadata.
   Do not invent an arXiv link for a paper available only from its publisher.
+  Add verified media coverage beside a paper with `media_url` and `media_label`.
 - Edit `_config.yml` for sidebar details and profile links.
 - Edit `_data/navigation.yml` for the navigation.
 - The approved portrait is `images/profile.jpg`; the homepage includes its
