@@ -1,12 +1,16 @@
 - title: "Reliable and self-improving agents"
   papers:
     - title: "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization"
+      authors: ["Sungho Park", "Wonjoong Kim", "Jue Zhang", "Wook-Shin Han", "Pengfei Gao", "Chanyoung Park", "Yongqiang Yao", "Rao Fu", "Elsie Nallipogu", "Qingwei Lin", "Victor Rühle"]
+      author_source: "https://arxiv.org/abs/2610.00906"
       sort_key: "2026-2610.00906"
       arxiv: "2610.00906"
       github: "https://github.com/microsoft/AutoSaddler/tree/feat/activesaddler"
       sources:
         - "https://autosaddler-projectpage.github.io/activesaddler/"
     - title: "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces"
+      authors: ["Sungho Park", "Wonjoong Kim", "Rongyuan Tan", "Jue Zhang", "Wook-Shin Han", "Pengfei Gao", "Chanyoung Park", "Yongqiang Yao", "Rao Fu", "Elsie Nallipogu", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang"]
+      author_source: "https://arxiv.org/abs/2608.23041v1"
       sort_key: "2026-2608.23041"
       venue: "NeurIPS, 2026"
       arxiv: "2608.23041"
@@ -16,6 +20,8 @@
         - "https://autosaddler-projectpage.github.io/"
         - "https://openreview.net/forum?id=bkGK6zovnv"
     - title: "Contrastive Attribution in the Wild: An Interpretability Analysis of LLM Failures on Realistic Benchmarks"
+      authors: ["Rongyuan Tan", "Jue Zhang", "Zhuozhao Li", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang"]
+      author_source: "https://aclanthology.org/2026.emnlp-main.2003/"
       sort_key: "2026-2604.17761"
       venue: "EMNLP, 2026"
       arxiv: "2604.17761"
@@ -24,6 +30,8 @@
       sources:
         - "https://jzxycsjzy.github.io/Debug-XAI/"
     - title: "A Tale of Two Graphs: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research"
+      authors: ["Zhuofan Shi", "Ming Ma", "Zekun Yao", "Fangkai Yang", "Jue Zhang", "Dongge Han", "Victor Rühle", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang"]
+      author_source: "https://icml.cc/virtual/2026/poster/63960"
       sort_key: "2026-2602.13830"
       venue: "ICML, 2026"
       arxiv: "2602.13830"
@@ -31,6 +39,8 @@
       sources:
         - "https://arxiv.org/html/2602.13830v3"
     - title: "DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems"
+      authors: ["Ming Ma", "Jue Zhang", "Fangkai Yang", "Yu Kang", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang"]
+      author_source: "https://iclr.cc/virtual/2026/poster/10007537"
       sort_key: "2026-2512.06749"
       venue: "ICLR, 2026"
       arxiv: "2512.06749"
@@ -39,6 +49,8 @@
       sources:
         - "https://mbjinx.github.io/DoVer_Web/"
     - title: "From Reasoning to Answer: Empirical, Attention-Based and Mechanistic Insights into Distilled DeepSeek R1 Models"
+      authors: ["Jue Zhang", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang"]
+      author_source: "https://aclanthology.org/2025.emnlp-main.198/"
       sort_key: "2025-2509.23676"
       venue: "EMNLP, 2025"
       arxiv: "2509.23676"
@@ -50,6 +62,8 @@
 - title: "AI efficiency"
   papers:
     - title: "TACO-RL: Task Aware Prompt Compression Optimization with Reinforcement Learning"
+      authors: ["Shivam Shandilya", "Menglin Xia", "Supriyo Ghosh", "Huiqiang Jiang", "Jue Zhang", "Qianhui Wu", "Victor Rühle", "Saravan Rajmohan"]
+      author_source: "https://aclanthology.org/2025.findings-acl.81/"
       sort_key: "2025-2409.13035"
       venue: "Findings of ACL, 2025"
       arxiv: "2409.13035"
@@ -57,6 +71,8 @@
       sources:
         - "https://arxiv.org/html/2409.13035v2"
     - title: "AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents"
+      authors: ["Junting Lu", "Zhiyang Zhang", "Fangkai Yang", "Jue Zhang", "Lu Wang", "Chao Du", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang", "Qi Zhang"]
+      author_source: "https://aclanthology.org/2025.acl-long.381/"
       sort_key: "2025-2409.17140"
       venue: "ACL, 2025"
       arxiv: "2409.17140"
@@ -64,12 +80,16 @@
       sources:
         - "https://aclanthology.org/2025.acl-long.381/"
     - title: "Performance Aware LLM Load Balancer for Mixed Workloads"
+      authors: ["Kunal Jain", "Anjaly Parayil", "Ankur Mallick", "Esha Choukse", "Xiaoting Qin", "Jue Zhang", "Íñigo Goiri", "Rujia Wang", "Chetan Bansal", "Victor Rühle", "Anoop Kulkarni", "Steve Kofsky", "Saravan Rajmohan"]
+      author_source: "https://api.crossref.org/works/10.1145/3721146.3721947"
       sort_key: "2025-0000.00000"
       venue: "ACM EuroMLSys Workshop, 2025"
       publisher_url: "https://doi.org/10.1145/3721146.3721947"
       sources:
         - "https://www.microsoft.com/en-us/research/publication/performance-aware-llm-load-balancer-for-mixed-workloads/"
     - title: "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression"
+      authors: ["Zhuoshi Pan", "Qianhui Wu", "Huiqiang Jiang", "Menglin Xia", "Xufang Luo", "Jue Zhang", "Qingwei Lin", "Victor Rühle", "Yuqing Yang", "Chin-Yew Lin", "H. Vicky Zhao", "Lili Qiu", "Dongmei Zhang"]
+      author_source: "https://aclanthology.org/2024.findings-acl.57/"
       sort_key: "2024-2403.12968"
       venue: "Findings of ACL, 2024"
       arxiv: "2403.12968"
@@ -78,6 +98,8 @@
       sources:
         - "https://llmlingua.com/llmlingua2.html"
     - title: "AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation"
+      authors: ["Jia Fu", "Xiaoting Qin", "Fangkai Yang", "Lu Wang", "Jue Zhang", "Qingwei Lin", "Yubo Chen", "Dongmei Zhang", "Saravan Rajmohan", "Qi Zhang"]
+      author_source: "https://aclanthology.org/2024.findings-emnlp.223/"
       sort_key: "2024-2406.19251"
       venue: "Findings of EMNLP, 2024"
       arxiv: "2406.19251"
@@ -88,6 +110,8 @@
 - title: "Privacy-preserving AI and Personalization"
   papers:
     - title: "MEETING DELEGATE: Benchmarking LLMs on Attending Meetings on Our Behalf"
+      authors: ["Lingxiang Hu", "Shurun Yuan", "Xiaoting Qin", "Jue Zhang", "Qingwei Lin", "Dongmei Zhang", "Saravan Rajmohan", "Qi Zhang"]
+      author_source: "https://aclanthology.org/2025.hcinlp-1.24/"
       sort_key: "2025-2502.04376"
       venue: "HCI+NLP Workshop, 2025"
       arxiv: "2502.04376"
@@ -95,12 +119,16 @@
       sources:
         - "https://aclanthology.org/2025.hcinlp-1.24/"
     - title: "EgoMemory: Memory-Augmented Personalized Retrieval for Long-Context Egocentric Video"
+      authors: ["Yuanmin Tang", "Jue Zhang", "Xiaoting Qin", "Jing Yu", "Meikang Qiu", "Gaopeng Gou", "Gang Xiong", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang", "Qi Wu"]
+      author_source: "https://aclanthology.org/2026.findings-acl.362/"
       sort_key: "2026-0000.00000"
       venue: "Findings of ACL, 2026"
       publisher_url: "https://aclanthology.org/2026.findings-acl.362/"
       sources:
         - "https://aclanthology.org/2026.findings-acl.362/"
     - title: "Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents"
+      authors: ["Shouju Wang", "Fenglin Yu", "Xirui Liu", "Xiaoting Qin", "Jue Zhang", "Qingwei Lin", "Dongmei Zhang", "Saravan Rajmohan"]
+      author_source: "https://aclanthology.org/2025.findings-emnlp.925/"
       sort_key: "2025-2509.17488"
       venue: "Findings of EMNLP, 2025"
       arxiv: "2509.17488"
@@ -109,6 +137,8 @@
       sources:
         - "https://aclanthology.org/2025.findings-emnlp.925/"
     - title: "Navigating the Unknown: A Chat-Based Collaborative Interface for Personalized Exploratory Tasks"
+      authors: ["Yingzhe Peng", "Xiaoting Qin", "Zhiyang Zhang", "Jue Zhang", "Qingwei Lin", "Xu Yang", "Dongmei Zhang", "Saravan Rajmohan", "Qi Zhang"]
+      author_source: "https://api.crossref.org/works/10.1145/3708359.3712093"
       sort_key: "2025-2410.24032"
       venue: "ACM IUI, 2025"
       arxiv: "2410.24032"
@@ -116,6 +146,8 @@
       sources:
         - "https://api.crossref.org/works/10.1145/3708359.3712093"
     - title: "Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval"
+      authors: ["Yuanmin Tang", "Jue Zhang", "Xiaoting Qin", "Jing Yu", "Gaopeng Gou", "Gang Xiong", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang", "Qi Wu"]
+      author_source: "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_Reason-before-Retrieve_One-Stage_Reflective_Chain-of-Thoughts_for_Training-Free_Zero-Shot_Composed_Image_Retrieval_CVPR_2025_paper.html"
       sort_key: "2025-2412.11077"
       venue: "CVPR, 2025"
       arxiv: "2412.11077"
@@ -124,6 +156,8 @@
       sources:
         - "https://arxiv.org/abs/2412.11077"
     - title: "CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents"
+      authors: ["Wenjie Fu", "Xiaoting Qin", "Jue Zhang", "Qingwei Lin", "Lukas Wutschitz", "Robert Sim", "Saravan Rajmohan", "Dongmei Zhang"]
+      author_source: "https://aclanthology.org/2026.acl-industry.103/"
       sort_key: "2026-2604.21308"
       venue: "ACL Industry Track, 2026"
       arxiv: "2604.21308"
@@ -131,29 +165,33 @@
       sources:
         - "https://aclanthology.org/2026.acl-industry.103/"
     - title: "Sharingan: Extract User Action Sequence from Desktop Recordings"
+      authors: ["Yanting Chen", "Yi Ren", "Xiaoting Qin", "Jue Zhang", "Kehong Yuan", "Lu Han", "Qingwei Lin", "Dongmei Zhang", "Saravan Rajmohan", "Qi Zhang"]
+      author_source: "https://arxiv.org/abs/2411.08768"
       sort_key: "2024-2411.08768"
       arxiv: "2411.08768"
-      github: "https://github.com/microsoft/ACV/tree/main/misc/Sharingan"
-      github_label: "GitHub (placeholder)"
       sources:
         - "https://github.com/microsoft/ACV/blob/994ac15db6fff8a5131bbf5a26e84e352e676796/misc/Sharingan/README.md"
 
 - title: "Cloud Management and Resource Optimization"
   papers:
     - title: "Enabling Autonomic Microservice Management through Self-Learning Agents"
+      authors: ["Fenglin Yu", "Fangkai Yang", "Xiaoting Qin", "Zhiyang Zhang", "Jue Zhang", "Qingwei Lin", "Hongyu Zhang", "Yingnong Dang", "Saravan Rajmohan", "Dongmei Zhang", "Qi Zhang"]
+      author_source: "https://arxiv.org/abs/2501.19056"
       sort_key: "2025-2501.19056"
       arxiv: "2501.19056"
-      github: "https://github.com/microsoft/ACV"
-      github_label: "GitHub (project)"
       sources:
         - "https://github.com/microsoft/ACV/blob/994ac15db6fff8a5131bbf5a26e84e352e676796/README.md"
     - title: "The Vision of Autonomic Computing: Can LLMs Make It a Reality?"
+      authors: ["Zhiyang Zhang", "Fangkai Yang", "Xiaoting Qin", "Jue Zhang", "Qingwei Lin", "Gong Cheng", "Dongmei Zhang", "Saravan Rajmohan", "Qi Zhang"]
+      author_source: "https://arxiv.org/abs/2407.14402"
       sort_key: "2024-2407.14402"
       arxiv: "2407.14402"
       github: "https://github.com/microsoft/ACV/tree/main/self_managing_systems/microservice/paper_artifact_arXiv_2407_14402"
       sources:
         - "https://eta-zhang.github.io/ACV-LLM/"
     - title: "RCInvestigator: Towards Better Investigation of Anomaly Root Causes in Cloud Computing Systems"
+      authors: ["Shuhan Liu", "Yunfan Zhou", "Jue Zhang", "Shandan Zhou", "Weiwei Cui", "Qingwei Lin", "Thomas Moscibroda", "Haidong Zhang", "Di Weng", "Yingcai Wu"]
+      author_source: "https://doi.org/10.1109/TVCG.2026.3694461"
       sort_key: "2026-2405.15571"
       venue: "IEEE Transactions on Visualization and Computer Graphics (PacificVIS Journal Track), 2026"
       arxiv: "2405.15571"
@@ -161,6 +199,8 @@
       sources:
         - "https://arxiv.org/abs/2405.15571"
     - title: "Towards Workload-aware Cloud Efficiency: A Large-scale Empirical Study of Cloud Workload Characteristics"
+      authors: ["Anjaly Parayil", "Jue Zhang", "Xiaoting Qin", "Íñigo Goiri", "Lexiang Huang", "Timothy Zhu", "Chetan Bansal"]
+      author_source: "https://doi.org/10.1145/3676151.3722008"
       sort_key: "2025-2405.07250"
       venue: "ACM/SPEC ICPE, 2025"
       arxiv: "2405.07250"
@@ -169,6 +209,8 @@
         - "https://www.microsoft.com/en-us/research/publication/towards-cloud-efficiency-with-large-scale-workload-characterization/"
         - "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/09/WI-survey-ICPE.pdf"
     - title: "Workload Intelligence: Workload-Aware IaaS Abstraction for Cloud Efficiency"
+      authors: ["Lexiang Huang", "Anjaly Parayil", "Jue Zhang", "Xiaoting Qin", "Chetan Bansal", "Jovan Stojkovic", "Pantea Zardoshti", "Pulkit Misra", "Eli Cortez", "Raphael Ghelman", "Íñigo Goiri", "Saravan Rajmohan", "Jim Kleewein", "Rodrigo Fonseca", "Timothy Zhu", "Ricardo Bianchini"]
+      author_source: "https://doi.org/10.1145/3712285.3759848"
       sort_key: "2025-2404.19143"
       venue: "ACM/IEEE SC, 2025"
       arxiv: "2404.19143"
@@ -176,24 +218,32 @@
       sources:
         - "https://www.microsoft.com/en-us/research/publication/workload-intelligence-workload-aware-iaas-abstraction-for-cloud-efficiency/"
     - title: "Contextual Self-attentive Temporal Point Process for Physical Decommissioning Prediction of Cloud Assets"
+      authors: ["Fangkai Yang", "Jue Zhang", "Lu Wang", "Bo Qiao", "Di Weng", "Xiaoting Qin", "Gregory Weber", "Durgesh Nandini Das", "Srinivasan Rakhunathan", "Ranganathan Srikanth", "Qingwei Lin", "Dongmei Zhang"]
+      author_source: "https://doi.org/10.1145/3580305.3599794"
       sort_key: "2023-0000.00000"
       venue: "ACM KDD, 2023"
       publisher_url: "https://doi.org/10.1145/3580305.3599794"
       sources:
         - "https://www.microsoft.com/en-us/research/publication/contextual-self-attentive-temporal-point-process-for-physical-decommissioning-prediction-of-cloud-assets/"
     - title: "How Different are the Cloud Workloads? Characterizing Large-Scale Private and Public Cloud Workloads"
+      authors: ["Xiaoting Qin", "Minghua Ma", "Yuheng Zhao", "Jue Zhang", "Chao Du", "Yudong Liu", "Anjaly Parayil", "Chetan Bansal", "Saravan Rajmohan", "Íñigo Goiri", "Eli Cortez", "Si Qin", "Qingwei Lin", "Dongmei Zhang"]
+      author_source: "https://doi.org/10.1109/DSN58367.2023.00055"
       sort_key: "2023-0000.00000"
       venue: "IEEE/IFIP DSN, 2023"
       publisher_url: "https://doi.org/10.1109/DSN58367.2023.00055"
       sources:
         - "https://www.microsoft.com/en-us/research/publication/how-different-are-the-cloud-workloads-characterizing-large-scale-private-and-public-cloud-workloads/"
     - title: "Snape: Reliable and Low-Cost Computing with Mixture of Spot and On-Demand VMs"
+      authors: ["Fangkai Yang", "Lu Wang", "Zhenyu Xu", "Jue Zhang", "Liqun Li", "Bo Qiao", "Camille Couturier", "Chetan Bansal", "Soumya Ram", "Si Qin", "Zhen Ma", "Íñigo Goiri", "Eli Cortez", "Terry Yang", "Victor Rühle", "Saravan Rajmohan", "Qingwei Lin", "Dongmei Zhang"]
+      author_source: "https://doi.org/10.1145/3582016.3582028"
       sort_key: "2023-0000.00000"
       venue: "ACM ASPLOS, 2023"
       publisher_url: "https://doi.org/10.1145/3582016.3582028"
       sources:
         - "https://www.microsoft.com/en-us/research/publication/snape-reliable-and-low-cost-computing-with-mixture-of-spot-and-on-demand-vms/"
     - title: "Spot Virtual Machine Eviction Prediction in Microsoft Cloud"
+      authors: ["Fangkai Yang", "Bowen Pang", "Jue Zhang", "Bo Qiao", "Lu Wang", "Camille Couturier", "Chetan Bansal", "Soumya Ram", "Si Qin", "Zhen Ma", "Íñigo Goiri", "Eli Cortez", "Senthil Baladhandayutham", "Victor Rühle", "Saravan Rajmohan", "Qingwei Lin", "Dongmei Zhang"]
+      author_source: "https://doi.org/10.1145/3487553.3524229"
       sort_key: "2022-0000.00000"
       venue: "ACM WWW Companion, 2022"
       publisher_url: "https://doi.org/10.1145/3487553.3524229"
@@ -203,6 +253,8 @@
 - title: "AI for Physics"
   papers:
     - title: "An efficient Lorentz equivariant graph neural network for jet tagging"
+      authors: ["Shiqi Gong", "Qi Meng", "Jue Zhang", "Huilin Qu", "Congqiao Li", "Sitian Qian", "Weitao Du", "Zhi-Ming Ma", "Tie-Yan Liu"]
+      author_source: "https://doi.org/10.1007/JHEP07(2022)030"
       sort_key: "2022-2201.08187"
       venue: "Journal of High Energy Physics, 2022"
       arxiv: "2201.08187"
@@ -212,6 +264,8 @@
         - "https://arxiv.org/abs/2201.08187"
         - "https://inspirehep.net/literature/2014148"
     - title: "Does Lorentz-symmetric design boost network performance in jet physics?"
+      authors: ["Congqiao Li", "Huilin Qu", "Sitian Qian", "Qi Meng", "Shiqi Gong", "Jue Zhang", "Tie-Yan Liu", "Qiang Li"]
+      author_source: "https://doi.org/10.1103/PhysRevD.109.056003"
       sort_key: "2024-2208.07814"
       venue: "Physical Review D, 2024"
       arxiv: "2208.07814"
@@ -223,6 +277,8 @@
 - title: "Neutrino Physics"
   papers:
     - title: "Gravitational clustering of cosmic relic neutrinos in the Milky Way"
+      authors: ["Jue Zhang", "Xin Zhang"]
+      author_source: "https://doi.org/10.1038/s41467-018-04264-y"
       sort_key: "2018-1712.01153"
       venue: "Nature Communications, 2018"
       arxiv: "1712.01153"
@@ -230,6 +286,8 @@
       sources:
         - "https://inspirehep.net/literature/1640603"
     - title: "Distinguishing Dirac/Majorana Sterile Neutrinos at the LHC"
+      authors: ["Claudio O. Dib", "Choong Sun Kim", "Kechen Wang", "Jue Zhang"]
+      author_source: "https://doi.org/10.1103/PhysRevD.94.013005"
       sort_key: "2016-1605.01123"
       venue: "Physical Review D, 2016"
       arxiv: "1605.01123"
@@ -237,6 +295,8 @@
       sources:
         - "https://inspirehep.net/literature/1455792"
     - title: "Improved Statistical Determination of Absolute Neutrino Masses via Radiative Emission of Neutrino Pairs from Atoms"
+      authors: ["Jue Zhang", "Shun Zhou"]
+      author_source: "https://doi.org/10.1103/PhysRevD.93.113020"
       sort_key: "2016-1604.08008"
       venue: "Physical Review D, 2016"
       arxiv: "1604.08008"
@@ -244,6 +304,8 @@
       sources:
         - "https://inspirehep.net/literature/1452703"
     - title: "Relic Right-handed Dirac Neutrinos and Implications for Detection of Cosmic Neutrino Background"
+      authors: ["Jue Zhang", "Shun Zhou"]
+      author_source: "https://doi.org/10.1016/j.nuclphysb.2015.12.014"
       sort_key: "2016-1509.02274"
       venue: "Nuclear Physics B, 2016"
       arxiv: "1509.02274"
@@ -251,6 +313,8 @@
       sources:
         - "https://inspirehep.net/literature/1392426"
     - title: "Confronting Four Zero Neutrino Yukawa Textures with N₂-dominated Leptogenesis"
+      authors: ["Jue Zhang"]
+      author_source: "https://doi.org/10.1103/PhysRevD.91.073012"
       sort_key: "2015-1502.04043"
       venue: "Physical Review D, 2015"
       arxiv: "1502.04043"
@@ -258,6 +322,8 @@
       sources:
         - "https://inspirehep.net/literature/1344788"
     - title: "θ₁₃ and The Flavor Ring"
+      authors: ["Jennifer Kile", "Michael Jay Pérez", "Pierre Ramond", "Jue Zhang"]
+      author_source: "https://doi.org/10.1103/PhysRevD.90.013004"
       sort_key: "2014-1403.6136"
       venue: "Physical Review D, 2014"
       arxiv: "1403.6136"

@@ -15,9 +15,14 @@ The upstream theme's MIT license and attribution are preserved.
   to break ties within a year. For papers without an arXiv ID, use `0000.00000`
   as the tie-breaker; no within-year publication date is claimed.
   Each entry records its full
-  title, confirmed venue and year (or arXiv identifier for preprints), arXiv
+  title, complete ordered author list in `authors` (with `Jue Zhang` rendered
+  in bold), confirmed venue and year (or arXiv identifier for preprints), arXiv
   identifier when available, and official GitHub repository when verified.
   Keep evidence links in the `sources` field; those are not rendered on the page.
+  Verify author order against the published version when available, otherwise
+  the preprint; retain the author metadata URL in `author_source`.
+  AutoSaddler uses the complete 13-author arXiv manuscript list, corroborated
+  by its project page, rather than the NeurIPS poster's shorter author metadata.
   Do not invent an arXiv link for a paper available only from its publisher.
 - Edit `_config.yml` for sidebar details and profile links.
 - Edit `_data/navigation.yml` for the navigation.
