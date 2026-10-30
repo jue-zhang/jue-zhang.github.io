@@ -27,18 +27,19 @@ I have authored nearly 50 peer-reviewed publications across leading
 AI/ML conferences and physics journals.
 
 Beyond my individual research, I lead collaborative research initiatives and
-mentor emerging researchers, having supervised more than 10 research interns.
+have mentored 10+ research interns.
 
 <span id="recent-research-interests"></span>
 
 ## Featured Research
-{: #research}
+{: #research tabindex="-1"}
 
 {% include featured-research.html %}
 
 {% include research-internships.html %}
 
 ## Selected Publications
+{: tabindex="-1"}
 
 See [Google Scholar](https://scholar.google.com/citations?user=_2XCa_QAAAAJ&hl=en)
 for my full publication list.
@@ -55,6 +56,7 @@ for my full publication list.
 - **CLAS Dissertation Fellowship**, University of Florida (2014).
 
 ## Professional service
+{: tabindex="-1"}
 
 - **Review Process Co-Chair**, ICSE 2027.
 - **Silver Reviewer Award**, ICML (2026).

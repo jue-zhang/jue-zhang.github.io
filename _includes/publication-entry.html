@@ -1,6 +1,6 @@
 {% assign paper = include.paper %}
 {% assign paper_id = paper.arxiv | default: paper.title | slugify %}
-<li id="paper-{{ paper_id }}" class="publication-entry">
+<li id="paper-{{ paper_id }}" class="publication-entry" tabindex="-1">
   <strong class="publication-entry__title">{{ paper.title | escape }}</strong><br>
   <span class="publication-entry__authors">{% for author in paper.authors %}{% if author == "Jue Zhang" %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span><br>
   <span class="publication-entry__resources">
