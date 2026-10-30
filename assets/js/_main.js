@@ -154,16 +154,29 @@ $(document).ready(function () {
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
 
-  // Follow menu drop down
+  // Profile links on compact screens.
   $(".author__urls-wrapper button").on("click", function () {
-    $(".author__urls").fadeToggle("fast", function () { });
-    $(".author__urls-wrapper button").toggleClass("open");
+    $(".author__urls").toggle();
+    $(this).toggleClass("open").attr("aria-expanded", $(this).hasClass("open"));
   });
 
-  // Restore the follow menu if toggled on a window resize
+  $(".author__urls").on("keydown", function (event) {
+    if (event.key === "Escape" && $(".author__urls-wrapper button").is(":visible")) {
+      $(".author__urls").hide();
+      $(".author__urls-wrapper button").removeClass("open")
+        .attr("aria-expanded", "false").trigger("focus");
+    }
+  });
+
+  // Let the responsive stylesheet own visibility after a viewport change.
   jQuery(window).on('resize', function () {
-    if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {
-      $(".author__urls").css('display', 'block')
+    const profileLinks = $(".author__urls");
+    const hadProfileFocus = profileLinks[0]?.contains(document.activeElement);
+    profileLinks.css("display", "");
+    const profileToggle = $(".author__urls-wrapper button");
+    profileToggle.removeClass("open").attr("aria-expanded", "false");
+    if (hadProfileFocus && profileToggle.is(":visible")) {
+      profileToggle.trigger("focus");
     }
   });
 
