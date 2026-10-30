@@ -23,12 +23,12 @@ repository               : "jue-zhang/jue-zhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.svg"
+  avatar           : "profile.jpg"
   name             : "Jue Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Principal Researcher"
   location         :
-  employer         : "M365 Research"
+  employer         :
   uri              : # URL
   email            :
 

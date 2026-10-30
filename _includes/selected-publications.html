@@ -1,0 +1,14 @@
+{% for area in site.data.publications %}
+<h3>{{ area.title | escape }}</h3>
+<ol>
+  {% for paper in area.papers %}
+  <li>
+    <strong>{{ paper.title | escape }}</strong><br>
+    {% if paper.venue %}{{ paper.venue | escape }}{% elsif paper.arxiv %}arXiv:{{ paper.arxiv | escape }}{% endif %}
+    {% if paper.arxiv %} &middot; <a href="https://arxiv.org/abs/{{ paper.arxiv | escape }}">arXiv</a>{% endif %}
+    {% if paper.github %} &middot; <a href="{{ paper.github | escape }}">{{ paper.github_label | default: "GitHub" | escape }}</a>{% endif %}
+    {% if paper.publisher_url %} &middot; <a href="{{ paper.publisher_url | escape }}">Publisher</a>{% endif %}
+  </li>
+  {% endfor %}
+</ol>
+{% endfor %}

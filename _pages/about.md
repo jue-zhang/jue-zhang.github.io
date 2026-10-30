@@ -19,6 +19,8 @@ I serve as an area chair for ACL Rolling Review and a reviewer for leading AI/ML
 conferences, including NeurIPS, ICML, ICLR, and AAAI. Before transitioning to AI/ML,
 I was a physicist with a Ph.D. in High Energy Physics from the University of Florida.
 
+*The photo on this page was taken by my daughter when she was three years old.*
+
 ## Research interests
 
 - **Reliable and self-improving agents:** understanding agent failures and turning
@@ -27,10 +29,9 @@ I was a physicist with a Ph.D. in High Energy Physics from the University of Flo
 - **Privacy-preserving AI:** understanding and addressing privacy challenges in
   AI systems.
 
-## Publications and profiles
+## Selected Publications
 
-Browse my [selected publications](/publications/) or visit
-[Google Scholar](https://scholar.google.com/citations?user=_2XCa_QAAAAJ&hl=en)
-for my publication list. You can also find me on
-[LinkedIn](https://www.linkedin.com/in/jue-zhang-211197289/) and
-[GitHub](https://github.com/jue-zhang).
+See [Google Scholar](https://scholar.google.com/citations?user=_2XCa_QAAAAJ&hl=en)
+for my full publication list.
+
+{% include selected-publications.html %}

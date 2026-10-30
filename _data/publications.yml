@@ -1,0 +1,213 @@
+- title: "Reliable and self-improving agents"
+  papers:
+    - title: "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization"
+      arxiv: "2610.00906"
+      github: "https://github.com/microsoft/AutoSaddler/tree/feat/activesaddler"
+      sources:
+        - "https://autosaddler-projectpage.github.io/activesaddler/"
+    - title: "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces"
+      venue: "NeurIPS, 2026 (accepted)"
+      arxiv: "2608.23041"
+      github: "https://github.com/microsoft/AutoSaddler"
+      publisher_url: "https://neurips.cc/virtual/2026/poster/151256"
+      sources:
+        - "https://autosaddler-projectpage.github.io/"
+        - "https://openreview.net/forum?id=bkGK6zovnv"
+    - title: "Contrastive Attribution in the Wild: An Interpretability Analysis of LLM Failures on Realistic Benchmarks"
+      venue: "EMNLP, 2026"
+      arxiv: "2604.17761"
+      github: "https://github.com/microsoft/Debug-XAI"
+      publisher_url: "https://aclanthology.org/2026.emnlp-main.2003/"
+      sources:
+        - "https://jzxycsjzy.github.io/Debug-XAI/"
+    - title: "A Tale of Two Graphs: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research"
+      venue: "ICML, 2026"
+      arxiv: "2602.13830"
+      publisher_url: "https://icml.cc/virtual/2026/poster/63960"
+      sources:
+        - "https://arxiv.org/html/2602.13830v3"
+    - title: "DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems"
+      venue: "ICLR, 2026"
+      arxiv: "2512.06749"
+      github: "https://github.com/microsoft/ACV/tree/main/misc/DoVer"
+      publisher_url: "https://iclr.cc/virtual/2026/poster/10007537"
+      sources:
+        - "https://mbjinx.github.io/DoVer_Web/"
+    - title: "From Reasoning to Answer: Empirical, Attention-Based and Mechanistic Insights into Distilled DeepSeek R1 Models"
+      venue: "EMNLP, 2025"
+      arxiv: "2509.23676"
+      github: "https://github.com/microsoft/ACV/tree/main/misc/R2A"
+      publisher_url: "https://aclanthology.org/2025.emnlp-main.198/"
+      sources:
+        - "https://aka.ms/R2A-code"
+
+- title: "AI efficiency"
+  papers:
+    - title: "TACO-RL: Task Aware Prompt Compression Optimization with Reinforcement Learning"
+      venue: "Findings of ACL, 2025"
+      arxiv: "2409.13035"
+      publisher_url: "https://aclanthology.org/2025.findings-acl.81/"
+      sources:
+        - "https://arxiv.org/html/2409.13035v2"
+    - title: "AXIS: Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents"
+      venue: "ACL, 2025"
+      arxiv: "2409.17140"
+      publisher_url: "https://aclanthology.org/2025.acl-long.381/"
+      sources:
+        - "https://aclanthology.org/2025.acl-long.381/"
+    - title: "Performance Aware LLM Load Balancer for Mixed Workloads"
+      venue: "ACM EuroMLSys Workshop, 2025"
+      publisher_url: "https://doi.org/10.1145/3721146.3721947"
+      sources:
+        - "https://www.microsoft.com/en-us/research/publication/performance-aware-llm-load-balancer-for-mixed-workloads/"
+    - title: "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression"
+      venue: "Findings of ACL, 2024"
+      arxiv: "2403.12968"
+      github: "https://github.com/microsoft/LLMLingua"
+      publisher_url: "https://aclanthology.org/2024.findings-acl.57/"
+      sources:
+        - "https://llmlingua.com/llmlingua2.html"
+    - title: "AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation"
+      venue: "Findings of EMNLP, 2024"
+      arxiv: "2406.19251"
+      publisher_url: "https://aclanthology.org/2024.findings-emnlp.223/"
+      sources:
+        - "https://fujia19990407.github.io/project_website/"
+
+- title: "Privacy-preserving AI and Personalization"
+  papers:
+    - title: "MEETING DELEGATE: Benchmarking LLMs on Attending Meetings on Our Behalf"
+      venue: "HCI+NLP Workshop, 2025"
+      arxiv: "2502.04376"
+      publisher_url: "https://aclanthology.org/2025.hcinlp-1.24/"
+      sources:
+        - "https://aclanthology.org/2025.hcinlp-1.24/"
+    - title: "EgoMemory: Memory-Augmented Personalized Retrieval for Long-Context Egocentric Video"
+      venue: "Findings of ACL, 2026"
+      publisher_url: "https://aclanthology.org/2026.findings-acl.362/"
+      sources:
+        - "https://aclanthology.org/2026.findings-acl.362/"
+    - title: "Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents"
+      venue: "Findings of EMNLP, 2025"
+      arxiv: "2509.17488"
+      github: "https://github.com/microsoft/ACV/tree/main/misc/PrivacyInAction"
+      publisher_url: "https://aclanthology.org/2025.findings-emnlp.925/"
+      sources:
+        - "https://aclanthology.org/2025.findings-emnlp.925/"
+    - title: "Navigating the Unknown: A Chat-Based Collaborative Interface for Personalized Exploratory Tasks"
+      venue: "ACM IUI, 2025"
+      arxiv: "2410.24032"
+      publisher_url: "https://doi.org/10.1145/3708359.3712093"
+      sources:
+        - "https://api.crossref.org/works/10.1145/3708359.3712093"
+    - title: "Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval"
+      venue: "CVPR, 2025"
+      arxiv: "2412.11077"
+      github: "https://github.com/Pter61/osrcir2024"
+      publisher_url: "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_Reason-before-Retrieve_One-Stage_Reflective_Chain-of-Thoughts_for_Training-Free_Zero-Shot_Composed_Image_Retrieval_CVPR_2025_paper.html"
+      sources:
+        - "https://arxiv.org/abs/2412.11077"
+    - title: "CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents"
+      venue: "ACL Industry Track, 2026"
+      arxiv: "2604.21308"
+      publisher_url: "https://aclanthology.org/2026.acl-industry.103/"
+      sources:
+        - "https://aclanthology.org/2026.acl-industry.103/"
+    - title: "Sharingan: Extract User Action Sequence from Desktop Recordings"
+      arxiv: "2411.08768"
+      github: "https://github.com/microsoft/ACV/tree/main/misc/Sharingan"
+      github_label: "GitHub (placeholder)"
+      sources:
+        - "https://github.com/microsoft/ACV/blob/994ac15db6fff8a5131bbf5a26e84e352e676796/misc/Sharingan/README.md"
+
+- title: "Cloud Management and Resource Optimization"
+  papers:
+    - title: "Enabling Autonomic Microservice Management through Self-Learning Agents"
+      arxiv: "2501.19056"
+      github: "https://github.com/microsoft/ACV"
+      github_label: "GitHub (project)"
+      sources:
+        - "https://github.com/microsoft/ACV/blob/994ac15db6fff8a5131bbf5a26e84e352e676796/README.md"
+    - title: "The Vision of Autonomic Computing: Can LLMs Make It a Reality?"
+      arxiv: "2407.14402"
+      github: "https://github.com/microsoft/ACV/tree/main/self_managing_systems/microservice/paper_artifact_arXiv_2407_14402"
+      sources:
+        - "https://eta-zhang.github.io/ACV-LLM/"
+    - title: "RCInvestigator: Towards Better Investigation of Anomaly Root Causes in Cloud Computing Systems"
+      venue: "IEEE Transactions on Visualization and Computer Graphics (PacificVIS Journal Track), 2026"
+      arxiv: "2405.15571"
+      publisher_url: "https://doi.org/10.1109/TVCG.2026.3694461"
+      sources:
+        - "https://arxiv.org/abs/2405.15571"
+    - title: "Towards Workload-aware Cloud Efficiency: A Large-scale Empirical Study of Cloud Workload Characteristics"
+      venue: "ACM/SPEC ICPE, 2025"
+      arxiv: "2405.07250"
+      publisher_url: "https://doi.org/10.1145/3676151.3722008"
+      sources:
+        - "https://www.microsoft.com/en-us/research/publication/towards-cloud-efficiency-with-large-scale-workload-characterization/"
+        - "https://www.microsoft.com/en-us/research/wp-content/uploads/2024/09/WI-survey-ICPE.pdf"
+    - title: "Workload Intelligence: Workload-Aware IaaS Abstraction for Cloud Efficiency"
+      venue: "ACM/IEEE SC, 2025"
+      arxiv: "2404.19143"
+      publisher_url: "https://doi.org/10.1145/3712285.3759848"
+      sources:
+        - "https://www.microsoft.com/en-us/research/publication/workload-intelligence-workload-aware-iaas-abstraction-for-cloud-efficiency/"
+    - title: "Contextual Self-attentive Temporal Point Process for Physical Decommissioning Prediction of Cloud Assets"
+      venue: "ACM KDD, 2023"
+      publisher_url: "https://doi.org/10.1145/3580305.3599794"
+      sources:
+        - "https://www.microsoft.com/en-us/research/publication/contextual-self-attentive-temporal-point-process-for-physical-decommissioning-prediction-of-cloud-assets/"
+    - title: "How Different are the Cloud Workloads? Characterizing Large-Scale Private and Public Cloud Workloads"
+      venue: "IEEE/IFIP DSN, 2023"
+      publisher_url: "https://doi.org/10.1109/DSN58367.2023.00055"
+      sources:
+        - "https://www.microsoft.com/en-us/research/publication/how-different-are-the-cloud-workloads-characterizing-large-scale-private-and-public-cloud-workloads/"
+    - title: "Snape: Reliable and Low-Cost Computing with Mixture of Spot and On-Demand VMs"
+      venue: "ACM ASPLOS, 2023"
+      publisher_url: "https://doi.org/10.1145/3582016.3582028"
+      sources:
+        - "https://www.microsoft.com/en-us/research/publication/snape-reliable-and-low-cost-computing-with-mixture-of-spot-and-on-demand-vms/"
+    - title: "Spot Virtual Machine Eviction Prediction in Microsoft Cloud"
+      venue: "ACM WWW Companion, 2022"
+      publisher_url: "https://doi.org/10.1145/3487553.3524229"
+      sources:
+        - "https://www.microsoft.com/en-us/research/publication/spot-virtual-machine-eviction-prediction-in-microsoft-cloud-2/"
+
+- title: "Neutrino Physics"
+  papers:
+    - title: "Gravitational clustering of cosmic relic neutrinos in the Milky Way"
+      venue: "Nature Communications, 2018"
+      arxiv: "1712.01153"
+      publisher_url: "https://doi.org/10.1038/s41467-018-04264-y"
+      sources:
+        - "https://inspirehep.net/literature/1640603"
+    - title: "Distinguishing Dirac/Majorana Sterile Neutrinos at the LHC"
+      venue: "Physical Review D, 2016"
+      arxiv: "1605.01123"
+      publisher_url: "https://doi.org/10.1103/PhysRevD.94.013005"
+      sources:
+        - "https://inspirehep.net/literature/1455792"
+    - title: "Improved Statistical Determination of Absolute Neutrino Masses via Radiative Emission of Neutrino Pairs from Atoms"
+      venue: "Physical Review D, 2016"
+      arxiv: "1604.08008"
+      publisher_url: "https://doi.org/10.1103/PhysRevD.93.113020"
+      sources:
+        - "https://inspirehep.net/literature/1452703"
+    - title: "Relic Right-handed Dirac Neutrinos and Implications for Detection of Cosmic Neutrino Background"
+      venue: "Nuclear Physics B, 2016"
+      arxiv: "1509.02274"
+      publisher_url: "https://doi.org/10.1016/j.nuclphysb.2015.12.014"
+      sources:
+        - "https://inspirehep.net/literature/1392426"
+    - title: "Confronting Four Zero Neutrino Yukawa Textures with N₂-dominated Leptogenesis"
+      venue: "Physical Review D, 2015"
+      arxiv: "1502.04043"
+      publisher_url: "https://doi.org/10.1103/PhysRevD.91.073012"
+      sources:
+        - "https://inspirehep.net/literature/1344788"
+    - title: "θ₁₃ and The Flavor Ring"
+      venue: "Physical Review D, 2014"
+      arxiv: "1403.6136"
+      publisher_url: "https://doi.org/10.1103/PhysRevD.90.013004"
+      sources:
+        - "https://inspirehep.net/literature/1287062"

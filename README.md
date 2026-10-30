@@ -8,11 +8,17 @@ The upstream theme's MIT license and attribution are preserved.
 ## Updating the site
 
 - Edit `_pages/about.md` for the homepage and biography.
-- Edit `_pages/publications.md` for selected publications.
+- Edit `_data/publications.yml` for selected publications grouped by research area.
+  They appear on the About page through `_includes/selected-publications.html`.
+  Preserve the requested order within each area. Each entry records its full
+  title, confirmed venue and year (or arXiv identifier for preprints), arXiv
+  identifier when available, and official GitHub repository when verified.
+  Keep evidence links in the `sources` field; those are not rendered on the page.
+  Do not invent an arXiv link for a paper available only from its publisher.
 - Edit `_config.yml` for sidebar details and profile links.
 - Edit `_data/navigation.yml` for the navigation.
-- Replace `images/profile.svg` with an approved portrait and update
-  `author.avatar` in `_config.yml` when a photograph is available.
+- The approved portrait is `images/profile.jpg`; the homepage includes its
+  personal anecdote. Remove location metadata before replacing the photo.
 
 Push changes to `master`. The **Deploy personal website to Pages** workflow
 builds the site and publishes it through GitHub Pages. Deployment status is
@@ -37,6 +43,6 @@ Open <http://127.0.0.1:4000>. To validate a production build:
 JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter
 ```
 
-The site initially contains About and Publications pages. Add talks, blog posts,
-or a public CV when content is ready; removed template samples are not personal
-content.
+The About page includes selected publications. The old `/publications/` address
+redirects to that section. Add talks, blog posts, or a public CV when content is
+ready; removed template samples are not personal content.
