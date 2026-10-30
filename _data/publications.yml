@@ -1,6 +1,7 @@
 - title: "Reliable and self-improving agents"
   papers:
     - title: "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization"
+      highlight_summary: "Selects learning opportunities through automated curriculum learning for agent harness optimization."
       authors: ["Sungho Park", "Wonjoong Kim", "Jue Zhang", "Wook-Shin Han", "Pengfei Gao", "Chanyoung Park", "Yongqiang Yao", "Rao Fu", "Elsie Nallipogu", "Qingwei Lin", "Victor Rühle"]
       author_source: "https://arxiv.org/abs/2610.00906"
       sort_key: "2026-2610.00906"
@@ -9,6 +10,7 @@
       sources:
         - "https://autosaddler-projectpage.github.io/activesaddler/"
     - title: "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces"
+      highlight_summary: "Uses agent execution traces to optimize harnesses with durable updates."
       authors: ["Sungho Park", "Wonjoong Kim", "Rongyuan Tan", "Jue Zhang", "Wook-Shin Han", "Pengfei Gao", "Chanyoung Park", "Yongqiang Yao", "Rao Fu", "Elsie Nallipogu", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang"]
       author_source: "https://arxiv.org/abs/2608.23041v1"
       sort_key: "2026-2608.23041"
@@ -30,6 +32,7 @@
       sources:
         - "https://jzxycsjzy.github.io/Debug-XAI/"
     - title: "A Tale of Two Graphs: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research"
+      highlight_summary: "Separates knowledge exploration from outline structure for open-ended deep research."
       authors: ["Zhuofan Shi", "Ming Ma", "Zekun Yao", "Fangkai Yang", "Jue Zhang", "Dongge Han", "Victor Rühle", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang"]
       author_source: "https://icml.cc/virtual/2026/poster/63960"
       sort_key: "2026-2602.13830"
@@ -39,6 +42,7 @@
       sources:
         - "https://arxiv.org/html/2602.13830v3"
     - title: "DoVer: Intervention-Driven Auto Debugging for LLM Multi-Agent Systems"
+      highlight_summary: "Uses targeted interventions to investigate and debug failures in LLM multi-agent systems."
       authors: ["Ming Ma", "Jue Zhang", "Fangkai Yang", "Yu Kang", "Qingwei Lin", "Saravan Rajmohan", "Dongmei Zhang"]
       author_source: "https://iclr.cc/virtual/2026/poster/10007537"
       sort_key: "2026-2512.06749"
@@ -88,6 +92,7 @@
       sources:
         - "https://www.microsoft.com/en-us/research/publication/performance-aware-llm-load-balancer-for-mixed-workloads/"
     - title: "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression"
+      highlight_summary: "Uses data distillation for efficient, faithful prompt compression across tasks."
       authors: ["Zhuoshi Pan", "Qianhui Wu", "Huiqiang Jiang", "Menglin Xia", "Xufang Luo", "Jue Zhang", "Qingwei Lin", "Victor Rühle", "Yuqing Yang", "Chin-Yew Lin", "H. Vicky Zhao", "Lili Qiu", "Dongmei Zhang"]
       author_source: "https://aclanthology.org/2024.findings-acl.57/"
       sort_key: "2024-2403.12968"
@@ -156,6 +161,7 @@
       sources:
         - "https://arxiv.org/abs/2412.11077"
     - title: "CI-Work: Benchmarking Contextual Integrity in Enterprise LLM Agents"
+      highlight_summary: "Benchmarks contextual integrity in enterprise agents to evaluate privacy-sensitive information handling."
       authors: ["Wenjie Fu", "Xiaoting Qin", "Jue Zhang", "Qingwei Lin", "Lukas Wutschitz", "Robert Sim", "Saravan Rajmohan", "Dongmei Zhang"]
       author_source: "https://aclanthology.org/2026.acl-industry.103/"
       sort_key: "2026-2604.21308"

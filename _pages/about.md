@@ -2,44 +2,48 @@
 permalink: /
 title: "About"
 author_profile: true
+seo_title: "Jue Zhang | AI Researcher at Microsoft"
+description: "Jue Zhang is a Principal Researcher at Microsoft working on reliable and self-improving AI agents, AI efficiency, and privacy-preserving AI."
+excerpt: "Research on agents that diagnose failures, learn from experience, and improve their capabilities."
+research_home: true
+social_image: "profile.jpg"
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am **Jue Zhang (张珏)**, a Principal Researcher at **M365 Research**. My recent research focuses on
-**reliable and self-improving AI agents**, **AI efficiency**, and
+I am **Jue Zhang (张珏)**, a Principal Researcher at **Microsoft**, where I lead
+research on **reliable and self-improving AI agents**, **AI efficiency**, and
 **privacy-preserving AI**.
+
+My recent research focuses on enabling AI agents to **diagnose failures, learn from
+experience, and continuously improve their own capabilities**. From failures to
+flywheels, I explore how reliable and efficient agentic systems can evolve beyond
+static, human-designed workflows.
 
 My research has contributed to Microsoft products including Microsoft 365, Bing,
 and Azure, resulting in hundreds of millions of dollars in cost savings.
 I have authored nearly 50 peer-reviewed publications across leading
 AI/ML conferences and physics journals.
 
-Before joining Microsoft, I worked at JD.com on applied research and product
-development in wearable-based health monitoring and personalized recommendation
-systems. I contributed to **ABC Health**, a WeChat mini program that helped people
-monitor their health during the COVID-19 pandemic. According to
-[36Kr (in Chinese)](https://www.36kr.com/p/2086021615436163), the program reached
-an estimated 10 million users during its pandemic-era surge.
+Beyond my individual research, I lead collaborative research initiatives and
+mentor emerging researchers, having supervised more than 10 research interns.
 
-Before transitioning to AI/ML, I was a physicist with a Ph.D. in High Energy Physics from the University of
-Florida and a B.S. in Theoretical Physics from the University of Science and
-Technology of China.
+<span id="recent-research-interests"></span>
 
-*The photo on this page was taken by my daughter when she was three years old. I'm wearing her hat, too! :)*
+## Featured Research
+{: #research}
 
-## Recent research interests
+{% include featured-research.html %}
 
-- **Reliable and self-improving agents:** from failures to flywheels by connecting
-  failure diagnosis, verified improvement, and challenge discovery to build
-  systems that learn from experience.
-- **AI efficiency:** making AI systems more efficient in inference and deployment.
-- **Privacy-preserving AI:** understanding and addressing privacy challenges in
-  AI systems.
+{% include research-internships.html %}
 
-I am currently hiring self-motivated research interns to work on the topics above.
-If you are interested, please [email me your CV](mailto:juezhang@microsoft.com).
+## Selected Publications
+
+See [Google Scholar](https://scholar.google.com/citations?user=_2XCa_QAAAAJ&hl=en)
+for my full publication list.
+
+{% include selected-publications.html %}
 
 ## Honors and awards
 
@@ -58,9 +62,17 @@ If you are interested, please [email me your CV](mailto:juezhang@microsoft.com).
 - **Reviewer**, NeurIPS, ICML, ICLR, AAAI, and ACL Rolling Review.
 - **Journal Reviewer**, Physical Review D and Journal of High Energy Physics.
 
-## Selected Publications
+## Background
 
-See [Google Scholar](https://scholar.google.com/citations?user=_2XCa_QAAAAJ&hl=en)
-for my full publication list.
+Before joining Microsoft, I worked at JD.com on applied research and product
+development in wearable-based health monitoring and personalized recommendation
+systems. I contributed to **ABC Health**, a WeChat mini program that helped people
+monitor their health during the COVID-19 pandemic. According to
+[36Kr (in Chinese)](https://www.36kr.com/p/2086021615436163), the program reached
+an estimated 10 million users during its pandemic-era surge.
 
-{% include selected-publications.html %}
+Before transitioning to AI/ML, I was a physicist with a Ph.D. in High Energy Physics
+from the University of Florida and a B.S. in Theoretical Physics from the
+University of Science and Technology of China.
+
+*The photo on this page was taken by my daughter when she was three years old. I'm wearing her hat, too! :)*

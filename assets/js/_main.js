@@ -29,6 +29,7 @@ function determineComputedTheme() {
 // theme is the stored preference or, failing that, the OS/browser preference.
 function setTheme(theme) {
   const use_theme = theme || determineComputedTheme();
+  $(".theme-toggle-control").attr("aria-pressed", use_theme === "dark");
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");

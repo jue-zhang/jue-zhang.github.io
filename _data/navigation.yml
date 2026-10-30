@@ -1,3 +1,9 @@
 main:
   - title: "About"
-    url: /
+    url: /#about
+  - title: "Research"
+    url: /#research
+  - title: "Publications"
+    url: /#selected-publications
+  - title: "Service"
+    url: /#professional-service

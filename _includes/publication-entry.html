@@ -1,0 +1,14 @@
+{% assign paper = include.paper %}
+{% assign paper_id = paper.arxiv | default: paper.title | slugify %}
+<li id="paper-{{ paper_id }}" class="publication-entry">
+  <strong class="publication-entry__title">{{ paper.title | escape }}</strong><br>
+  <span class="publication-entry__authors">{% for author in paper.authors %}{% if author == "Jue Zhang" %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span><br>
+  <span class="publication-entry__resources">
+    {% if paper.venue %}{{ paper.venue | escape }}{% elsif paper.arxiv %}arXiv:{{ paper.arxiv | escape }}{% endif %}
+    {% if paper.arxiv %} &middot; <a href="https://arxiv.org/abs/{{ paper.arxiv | escape }}">arXiv</a>{% endif %}
+    {% if paper.github %} &middot; <a href="{{ paper.github | escape }}">{{ paper.github_label | default: "GitHub" | escape }}</a>{% endif %}
+    {% if paper.publisher_url %} &middot; <a href="{{ paper.publisher_url | escape }}">Publisher</a>{% endif %}
+    {% if paper.media_url %} &middot; <a href="{{ paper.media_url | escape }}">{{ paper.media_label | default: "Media coverage" | escape }}</a>{% endif %}
+  </span>
+  {% if include.highlight %}<p class="publication-entry__summary">{{ paper.highlight_summary | escape }}</p>{% endif %}
+</li>

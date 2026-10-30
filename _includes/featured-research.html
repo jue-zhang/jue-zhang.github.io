@@ -1,0 +1,18 @@
+{% assign all_papers = "" | split: "," %}
+{% for area in site.data.publications %}{% assign all_papers = all_papers | concat: area.papers %}{% endfor %}
+<div class="research-grid">
+  {% for theme in site.data.research.themes %}
+  <section class="research-card" aria-labelledby="research-theme-{{ forloop.index }}">
+    <h3 id="research-theme-{{ forloop.index }}">{{ theme.title | escape }}</h3>
+    <p>{{ theme.description | escape }}</p>
+    <ul class="research-card__papers">
+      {% for reference in theme.papers %}
+        {% assign paper = all_papers | where_exp: "entry", "entry.arxiv == reference.arxiv" | first %}
+        {% if paper %}
+        <li><a href="{{ '/' | relative_url }}#paper-{{ paper.arxiv | slugify }}" title="{{ paper.title | escape }}">{{ reference.label | escape }}</a> <span>({% if paper.venue %}{{ paper.venue | escape }}{% else %}arXiv, {{ paper.sort_key | slice: 0, 4 }}{% endif %})</span></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>

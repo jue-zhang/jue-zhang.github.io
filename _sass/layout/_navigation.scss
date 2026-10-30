@@ -189,7 +189,7 @@
     }
   }
 
-  button {
+  > .nav-toggle {
     position: absolute;
     height: 2.5rem;
     right: 0;
@@ -226,10 +226,14 @@
     }
 
     #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
+      .theme-toggle-control {
+        position: static;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.5rem;
+        border: 0;
+        background: transparent;
+        color: var(--global-masthead-link-color);
         cursor: pointer;
       }
     }

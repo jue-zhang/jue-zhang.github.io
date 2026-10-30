@@ -27,6 +27,12 @@ The upstream theme's MIT license and attribution are preserved.
   by its project page, rather than the NeurIPS poster's shorter author metadata.
   Do not invent an arXiv link for a paper available only from its publisher.
   Add verified media coverage beside a paper with `media_url` and `media_label`.
+- Edit `_data/research.yml` for featured themes and the six highlighted paper
+  IDs. These reference the existing publication records by arXiv ID; titles,
+  authors, venues, resources, and highlight summaries stay in
+  `_data/publications.yml`. Highlighted entries appear once, above the remaining
+  papers grouped by research area.
+- Set `internships_open: false` in `_config.yml` to hide the internship callout.
 - Edit `_config.yml` for sidebar details and profile links.
 - Edit `_data/navigation.yml` for the navigation.
 - The approved portrait is `images/profile.jpg`; the homepage includes its
@@ -61,3 +67,37 @@ ready; removed template samples are not personal content.
 
 The public footer banner is intentionally omitted from the default layout.
 Upstream theme attribution and the MIT license remain in this repository.
+
+## Research refresh review preview
+
+The `users/jue/research-homepage-preview` branch is for review only. It is not
+merged into `master`. Manually run the existing Pages workflow on this branch:
+
+```sh
+gh workflow run jekyll.yml --ref users/jue/research-homepage-preview
+```
+
+On a non-default branch, the workflow builds the unchanged `master` homepage
+and puts the candidate under `/preview/research-refresh/` in the same deployment.
+The preview uses `_config.preview.yml`, including a preview base URL and
+`noindex, nofollow`; the original homepage keeps its existing content and assets.
+Both builds use the same Gemfile and dependency lockfile.
+The GitHub Pages environment must allow this exact review branch to deploy.
+A subsequent normal `master` deployment removes the temporary preview.
+Do not merge the review branch or replace the main homepage until approved.
+
+For a local preview using the same base path:
+
+```sh
+JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter \
+  --config _config.yml,_config.preview.yml \
+  --destination /tmp/jue-review-site/preview/research-refresh
+```
+
+Serve `/tmp/jue-review-site` using a static server and open
+`/preview/research-refresh/`. Check light/dark mode, a 390px mobile viewport,
+keyboard navigation, and featured-paper anchors.
+
+Pending information: no public-safe CV PDF has been supplied, so there is no
+CV placeholder link. The private CV is not published. ParetoSaddler is omitted
+until an official public paper or project URL is verified.

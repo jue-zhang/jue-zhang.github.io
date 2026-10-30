@@ -12,6 +12,7 @@
 {% if seo_title %}
   {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
+{% if page.seo_title %}{% assign seo_title = page.seo_title | escape_once %}{% endif %}
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
@@ -26,7 +27,9 @@ Absolute URLs (containing "://") are used as-is; relative paths are resolved und
 with base_path so the result is always absolute.
 {% endcomment %}
 {% assign seo_image_abs = false %}
-{% if page.header.image %}
+{% if page.social_image %}
+  {% assign seo_image_abs = page.social_image | prepend: "/images/" | prepend: base_path %}
+{% elsif page.header.image %}
   {% if page.header.image contains "://" %}
     {% assign seo_image_abs = page.header.image %}
   {% else %}

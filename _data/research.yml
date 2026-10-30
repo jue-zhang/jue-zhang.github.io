@@ -1,0 +1,43 @@
+themes:
+  - title: "Reliable and Self-Improving AI Agents"
+    description: "Developing agents that diagnose failures, learn from execution experience, and systematically improve their behavior and harnesses."
+    papers:
+      - arxiv: "2512.06749"
+        label: "DoVer"
+      - arxiv: "2608.23041"
+        label: "AutoSaddler"
+      - arxiv: "2610.00906"
+        label: "ActiveSaddler"
+  - title: "AI Efficiency"
+    description: "Improving AI efficiency through prompt compression, inference optimization, and more effective agent workflows."
+    papers:
+      - arxiv: "2403.12968"
+        label: "LLMLingua-2"
+      - arxiv: "2409.13035"
+        label: "TACO-RL"
+      - arxiv: "2409.17140"
+        label: "AXIS"
+  - title: "Privacy-Preserving AI"
+    description: "Understanding, evaluating, and mitigating privacy risks in AI-powered systems, particularly enterprise agents handling sensitive information."
+    papers:
+      - arxiv: "2604.21308"
+        label: "CI-Work"
+      - arxiv: "2509.17488"
+        label: "Privacy in Action"
+  - title: "Mechanistic Understanding and Agent Debugging"
+    description: "Investigating why AI systems succeed or fail through intervention-based debugging, contrastive attribution, and model-level interpretability."
+    papers:
+      - arxiv: "2512.06749"
+        label: "DoVer"
+      - arxiv: "2604.17761"
+        label: "Contrastive Attribution in the Wild"
+      - arxiv: "2509.23676"
+        label: "From Reasoning to Answer"
+
+highlights:
+  - "2608.23041"
+  - "2512.06749"
+  - "2610.00906"
+  - "2403.12968"
+  - "2604.21308"
+  - "2602.13830"
