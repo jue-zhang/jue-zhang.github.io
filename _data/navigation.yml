@@ -7,3 +7,5 @@ main:
     url: /#selected-publications
   - title: "Service"
     url: /#professional-service
+  - title: "Bio"
+    url: /#bio

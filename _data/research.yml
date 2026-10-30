@@ -24,6 +24,8 @@ themes:
         label: "CI-Work"
       - arxiv: "2509.17488"
         label: "Privacy in Action"
+      - arxiv: "2502.04376"
+        label: "Meeting Delegate"
   - title: "Mechanistic Understanding and Agent Debugging"
     description: "Investigating why AI systems succeed or fail through intervention-based debugging, contrastive attribution, and model-level interpretability."
     papers:

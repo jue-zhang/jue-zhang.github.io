@@ -64,7 +64,10 @@ for my full publication list.
 - **Reviewer**, NeurIPS, ICML, ICLR, AAAI, and ACL Rolling Review.
 - **Journal Reviewer**, Physical Review D and Journal of High Energy Physics.
 
-## Background
+<span id="background"></span>
+
+## Bio
+{: tabindex="-1"}
 
 Before joining Microsoft, I worked at JD.com on applied research and product
 development in wearable-based health monitoring and personalized recommendation
